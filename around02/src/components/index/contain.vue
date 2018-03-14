@@ -3,6 +3,7 @@
         <div class="le">
             <ul v-for="(data,index) in arr">
                 <li class="le-li" v-on:click='active(index)' :class="{activeClass:index==num}">{{data.name}}</li>
+                <li>测试git</li>
             </ul>
 
         </div>
